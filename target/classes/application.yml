@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    data1:
+      username: root
+      password: 123456
+      jdbc-url: jdbc:mysql://localhost:3306/my_user?useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.jdbc.Driver
+    data2:
+      username: root
+      password: 123456
+      jdbc-url: jdbc:mysql://localhost:3306/my_order?useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.jdbc.Driver

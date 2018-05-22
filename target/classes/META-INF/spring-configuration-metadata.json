@@ -1,0 +1,39 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.demo.config.DataSource12",
+      "name": "spring.datasource",
+      "type": "com.example.demo.config.DataSource12"
+    },
+    {
+      "sourceType": "com.example.demo.config.ConfigDataSource",
+      "name": "spring.datasource.data1",
+      "sourceMethod": "dataSourceUser()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.example.demo.config.ConfigDataSource",
+      "name": "spring.datasource.data2",
+      "sourceMethod": "dataSourceOrder()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.demo.config.DataSource12",
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.config.DataSource12",
+      "name": "spring.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.config.DataSource12",
+      "name": "spring.datasource.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

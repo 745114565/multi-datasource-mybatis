@@ -1,0 +1,10 @@
+spring.datasource.data1.username=root
+spring.datasource.data1.password=123456
+spring.datasource.data1.jdbc-url=jdbc:mysql://localhost:3306/my_user?useUnicode=true&characterEncoding=utf8
+spring.datasource.data1.driver-class-name=com.mysql.jdbc.Driver
+
+
+spring.datasource.data2.username=root
+spring.datasource.data2.password=123456
+spring.datasource.data2.jdbc-url=jdbc:mysql://localhost:3306/my_order?useUnicode=true&characterEncoding=utf8
+spring.datasource.data2.driver-class-name=com.mysql.jdbc.Driver
