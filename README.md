@@ -106,7 +106,7 @@ spring boot 2.0.2   mybatis    多数据源demo
 ```text
     fatal: authentication failed for "your-repository@gitee.com"
 ```
-**解决方案(https://www.jianshu.com/p/8a7f257e07b8)**
+**[解决方案](https://www.jianshu.com/p/8a7f257e07b8)**
 ```text
     git config --system --unset credential.helper
 ```
